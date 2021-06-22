@@ -6,10 +6,10 @@ target 'myApp' do
   use_frameworks!
 
   # Pods for myApp
-   pod 'IQKeyboardManagerSwift'
   target 'myAppTests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'IQKeyboardManagerSwift'
   end
 
   target 'myAppUITests' do
